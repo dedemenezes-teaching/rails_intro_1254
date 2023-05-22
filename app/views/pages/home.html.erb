@@ -1,0 +1,14 @@
+<h1>Welcome to Rails #1254 </h1>
+
+
+<p>Yesterday: <% Date.yesterday %></p>
+<p>Today: <%= Time.now %></p>
+
+<ul>
+  <!-- link_to is a helper method (so, a method available to the views) which generates an anchor HTML tag -->
+  <!-- Remember there's another syntax for calling methods in Ruby? -->
+  <!-- So it could be link_to "The text of the link", "/the/path/of/the/link" -->
+  <!-- or even better using the path helper PREFIX_path -->
+  <li><%= link_to 'About', about_path %></li>
+  <li><%= link_to 'Contact us', contact_us_path %></li>
+</ul>

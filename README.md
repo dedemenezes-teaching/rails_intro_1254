@@ -1,24 +1,9 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 Things you may want to cover:
 
-* Ruby version
+* 1st: Do the route
 
-* System dependencies
+* 2nd: Create the controller
 
-* Configuration
+* 3rd: Create the controller's method (which we call an action)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 4th: Create the associated view

@@ -1,0 +1,19 @@
+<h1>Contact us</h1>
+
+<p>We love receiving Emails</p>
+
+<form action="/contact_us" method='get'>
+  <label for="member">Name</label>
+  <input type="text" id='member' name="member" placeholder='Type a name' value="<%= params[:member] %>">
+  <!-- the name is the key of the params variable in the controller -->
+
+  <input type="submit" value='Search'>
+</form>
+
+<ul>
+  <% @members.each do |member| %>
+    <li><%= member.upcase %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'back to home using link_to', root_path %> <!-- same as <a href="/">Back to home</a> -->
